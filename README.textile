@@ -1,5 +1,10 @@
-Run fetchDonations.py for fresh transaction data.
------
+h2. Run fetchDonations.py for fresh transaction data.
+
+h3. The rest is inherited from previous repositary.
+.
+.
+.
+
 h1. Bubble Cloud Example Implementation
 
 **UPDATE: check out new D3v4 version here: http://vallandingham.me/bubble_charts_with_d3v4.html**
