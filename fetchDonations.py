@@ -18,10 +18,10 @@ if __name__ == '__main__':
     apiKey = "FVNBDKDWA2BXV5PZ74U2XV8MJJ56HFJWG7"
     # apiKey from Param Patel's account
     # limited to 5 calls per second
-    
+
     results = getDonations(donateToAddress, apiKey)
 
-    with open('donations.csv', mode='w', newline='') as write_file:
+    with open('data/top_donations.csv', mode='w', newline='') as write_file:
         donations_writer = csv.writer(write_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
         donations_writer.writerow(['name', 'count'])
