@@ -1,13 +1,13 @@
-
 body {
 }
 
-a, a:visited {
-  color:#333;
+a,
+a:visited {
+  color: #333;
 }
 
 #container {
-  padding-top:20px;
+  padding-top: 20px;
   width: 980px;
   border-left: 2px #ddd solid;
   border-right: 2px #ddd solid;
@@ -25,7 +25,7 @@ header {
 }
 
 #text-select {
-  float:right;
+  float: right;
   margin-right: 10px;
 }
 
@@ -35,7 +35,7 @@ header {
 }
 
 #status {
-  padding:0 0 20px 20px;
+  padding: 0 0 20px 20px;
 }
 
 #controls {
@@ -52,24 +52,24 @@ header {
 
 .bubble-node {
   /* fill: #d1e0f3; */
-  fill: #DCE9BE;
+  fill: #49a0d9;
 }
 
 .bubble-hover {
   /* fill: #b8c7d9; */
-  fill: #E8E9E7;
+  fill: #a6c2d4;
 }
 
 .bubble-selected {
   /* fill: #a8c8ee;  */
-  fill: #CEE98F;
+  fill: #73c0f3;
   /* stroke: #6081a3; */
-  stroke: #A6BA92;
+  stroke: #a6c2d4;
   stroke-width: 1.5px;
 }
 
 .active {
-  color: #A6BA92
+  color: #a6c2d4;
 }
 
 a.bubble-label {
@@ -83,7 +83,6 @@ a.bubble-label {
   position: absolute;
 }
 
-
 .bubble-label .bubble-label-value {
   font: 11px sans-serif;
   white-space: nowrap;
@@ -91,8 +90,7 @@ a.bubble-label {
 
 footer p {
   text-align: center;
-  padding-top:20px;
-  padding-bottom:20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   font: 13px sans-serif;
 }
-
