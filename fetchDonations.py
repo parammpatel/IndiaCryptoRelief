@@ -15,8 +15,8 @@ def getDonations(donateToAddress, apiKey):
 
 if __name__ == '__main__':
     donateToAddress = "0x68a99f89e475a078645f4bac491360afe255dff1"
-    apiKey = "FVNBDKDWA2BXV5PZ74U2XV8MJJ56HFJWG7"
-    # apiKey from Param Patel's account
+    apiKey = "[api_key]"
+    # apiKey from Etherscan
     # limited to 5 calls per second
 
     results = getDonations(donateToAddress, apiKey)
